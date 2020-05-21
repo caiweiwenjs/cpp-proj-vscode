@@ -1,0 +1,26 @@
+{
+    "window.zoomLevel": 1,
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.iconTheme": "vscode-icons",
+    "testMate.cpp.test.advancedExecutables": [
+        {
+          "pattern": "{build,Build,BUILD,out,Out,OUT}/**/*{test,Test,TEST}",
+          "cwd": "${absDirpath}",
+          "runTask": {
+            "before": [
+              "build"
+            ]
+          },
+        }
+      ],
+    "testMate.cpp.debug.configTemplate": {
+        "type": "cppdbg",
+        "MIMode": "lldb",
+        "program": "${exec}",
+        "args": "${args}",
+        "cwd": "${cwd}",
+        "env": "${envObj}",
+        "externalConsole": false
+    },
+    "testMate.cpp.log.userId": "e59f6bd8a3fba14be23f0a8727372d3a246c845b"
+}
