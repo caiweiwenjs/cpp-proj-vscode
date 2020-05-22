@@ -8,6 +8,7 @@
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
+            "preLaunchTask": "build",
             "program": "${workspaceFolder}/out/main",
             "args": [],
             "stopAtEntry": false,
