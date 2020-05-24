@@ -22,5 +22,8 @@
         "env": "${envObj}",
         "externalConsole": false
     },
-    "testMate.cpp.log.userId": "e59f6bd8a3fba14be23f0a8727372d3a246c845b"
+    "testMate.cpp.log.userId": "e59f6bd8a3fba14be23f0a8727372d3a246c845b",
+    "files.associations": {
+      "memory": "cpp"
+    }
 }

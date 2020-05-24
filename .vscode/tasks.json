@@ -6,19 +6,13 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "make",
+            "command": "mkdir -p build && cd build && cmake -Dtest=ON -DCMAKE_BUILD_TYPE=Debug .. && make",
             "problemMatcher": ["$gcc"],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
-        },
-        {
-            "label": "clean",
-            "type": "shell",
-            "command": "make clean",
-            "problemMatcher": []
-        }
+        }   
     ]
 }
 
